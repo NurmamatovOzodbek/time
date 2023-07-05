@@ -14,30 +14,45 @@ body {
   justify-content: center;
 }
 body section {
-  width: 500px;
+  width: 600px;
   height: 500px;
   background: red;
+  border-radius: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 20px;
 }
-body section p {
+body section .vaqt {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+body section .vaqt span {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+body section .vaqt p {
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
 body section input {
   padding: 10px;
+  border-radius: 10px;
   border: none;
   outline: none;
 }
 body section button {
   width: 100px;
-  padding: 10px;
+  padding: 10px 15px;
   background: green;
   color: white;
   cursor: pointer;
   border: none;
+}
+body section button:hover {
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
